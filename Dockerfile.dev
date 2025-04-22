@@ -1,6 +1,6 @@
 FROM ruby:3.3.6
-ENV LANG C.UTF-8
-ENV TZ Asia/Tokyo
+ENV LANG=C.UTF-8 \
+    TZ=Asia/Tokyo
 
 # システム全体にインストール
 RUN apt-get update -qq \
