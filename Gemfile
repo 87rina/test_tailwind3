@@ -19,7 +19,7 @@ gem "jbuilder"
 # 追加のGemファイル
 # CSS
 gem "tailwindcss-rails"
-gem "tailwindcss-ruby", "3.4.17"
+gem "tailwindcss-ruby", "4.1.10"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
